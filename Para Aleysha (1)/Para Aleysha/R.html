@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resevacion</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="menu container">
+
+            <img class="logo-1" src="img/food.webp" alt="">
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="img/menu.png" class="menu-icono" alt="">
+            </label> <div class="header-content container">
+                
+            </div>
+            <nav class="navbar">
+                <div class="tema">
+                    <div class="tema-txt">
+                        <h1>El Sabor de mi Tierra</h1>
+                 
+                <div class="menu-1">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="N.html">Nosotros</a></li>
+                    </ul>
+                </div>
+                <img class="logo-2" src="img/food.webp" alt="">
+            </div>
+        </div>
+    </nav>
+    </div>
+        <div class="header3-content container">
+        <div id="reservations"></div>
+        <section class="reservation-zone">
+            <div class="Reserva"> 
+
+                <div class="row">
+                    <div class="col-md-12">
+                        
+                        <div class="header-textcenter">
+                            <div class="header-title">
+                                <i class="fa fa-spoon"></i> Reservacion <i class="fa fa-spoon"></i>
+                            </div>
+                            <p>Dejanos tus datos para realizar una pre-reservacion de la fecha deseada</p>
+                        </div>
+                        
+
+                    
+                        <div class="phone center">
+                            <a href="tel:#">
+                                <h2>849-595-1475</h2>
+                            </a>
+                        </div>
+                        
+
+                        <form role="form" class="form-contact" action="php/reservations.php" method="GET">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Escribe tu Nombre *" required="required" name="name">
+                                    <input type="email" class="form-control" placeholder="Escribe tu Email *" required="required" name="email">
+                                    <input type="tel" class="form-control" placeholder="Numero de tefono *" name="phone">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Fecha *" required="required" name="date" id="datepicker">
+                                    <input type="text" class="form-control" placeholder="Hora" required="required" name="time">
+                                    <input type="text" class="form-control" placeholder="Numero de Personas" required="required" name="party">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <textarea required="required" placeholder="Tu Mensaje *" name="message"></textarea>
+                                    <button type="submit" class="btn btn-primary btn-sm btn-block">Solicitar Reseva</button>
+                                </div>
+                            </div>
+                            
+                        </form>
+                        <div class="result-reservations center"></div>
+
+                    </div>
+                </div>
+            </div>
+    </div>
+    </header>
+    <footer class="footer container">
+        <img class="logo-2" src="img/food.webp" alt="">
+        <div class="links">
+            <h4>Lorem</h4>
+            <ul>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Lorem</h4>
+            <ul>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Lorem</h4>
+            <ul>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Lorem</h4>
+            <div class="socials">
+                <a href="#">
+                    <div class="social">
+                        <img src="img/s1.svg" alt="">
+
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social">
+                        <img src="img/s2.svg" alt="">
+
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social">
+                        <img src="img/s3.svg" alt="">
+
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </footer>
+</body>
